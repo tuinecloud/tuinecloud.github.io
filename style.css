@@ -5,9 +5,9 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f7;
+    color: #2f2f2f;
     line-height: 1.6;
 }
 
@@ -17,31 +17,32 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    background-color: #fff;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #1A3C34;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     position: sticky;
     top: 0;
     z-index: 100;
 }
 
 .logo {
-    font-size: 28px;
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
     font-weight: 700;
-    color: #000;
+    color: #fff;
 }
 
 .nav-icons span {
     margin-left: 20px;
     font-size: 22px;
     cursor: pointer;
-    color: #333;
+    color: #fff;
 }
 
 /* Hero Section */
 .hero {
     position: relative;
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://drive.google.com/uc?export=view&id=1O3RySC-7BR0916OwpgXThJzorU75prT_') no-repeat center center/cover;
+    background: linear-gradient(135deg, rgba(26, 60, 52, 0.7), rgba(0, 0, 0, 0.5)), url('https://drive.google.com/uc?export=view&id=1O3RySC-7BR0916OwpgXThJzorU75prT_') no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,128 +57,136 @@ header {
 }
 
 .hero-content {
-    max-width: 700px;
+    max-width: 800px;
 }
 
 .hero h2 {
-    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
     font-weight: 300;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
     margin-bottom: 15px;
 }
 
 .hero h1 {
-    font-size: 48px;
+    font-family: 'Playfair Display', serif;
+    font-size: 52px;
     font-weight: 700;
     margin-bottom: 20px;
     line-height: 1.2;
 }
 
 .hero p {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 300;
     margin-bottom: 30px;
 }
 
-.buy-now {
-    background-color: #000;
+.order-now {
+    background-color: #D4A017;
     color: #fff;
-    padding: 12px 30px;
+    padding: 12px 35px;
     border: none;
-    border-radius: 25px;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 600;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.buy-now:hover {
-    background-color: #333;
+.order-now:hover {
+    background-color: #b88c14;
+    transform: scale(1.05);
 }
 
 /* About Section */
 .about {
-    padding: 60px 20px;
+    padding: 80px 20px;
     text-align: center;
     background-color: #fff;
 }
 
 .about h2 {
-    font-size: 32px;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
     font-weight: 700;
-    margin-bottom: 20px;
-    color: #000;
+    margin-bottom: 25px;
+    color: #1A3C34;
 }
 
 .about p {
     font-size: 16px;
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
-    color: #555;
+    color: #4a4a4a;
 }
 
 /* Products Section */
 .products {
-    padding: 60px 20px;
+    padding: 80px 20px;
     text-align: center;
     background-color: #f9f9f9;
 }
 
 .products h2 {
-    font-size: 32px;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
     font-weight: 700;
-    margin-bottom: 20px;
-    color: #000;
+    margin-bottom: 25px;
+    color: #1A3C34;
 }
 
 .products p {
     font-size: 16px;
-    margin-bottom: 20px;
-    color: #555;
+    margin-bottom: 25px;
+    color: #4a4a4a;
 }
 
 .products ul {
     list-style: none;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .products ul li {
     font-size: 16px;
-    margin: 10px 0;
-    color: #555;
+    margin: 15px 0;
+    color: #4a4a4a;
 }
 
 /* Contact Section */
 .contact {
-    padding: 60px 20px;
+    padding: 80px 20px;
     text-align: center;
     background-color: #fff;
 }
 
 .contact-info {
     background-color: #f9f9f9;
-    padding: 30px;
+    padding: 40px;
     margin: 0 auto;
     max-width: 600px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .contact-info h3 {
-    font-size: 28px;
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
     font-weight: 700;
-    margin-bottom: 20px;
-    color: #000;
+    margin-bottom: 25px;
+    color: #1A3C34;
 }
 
 .contact-info p {
     font-size: 16px;
-    margin-bottom: 10px;
-    color: #555;
+    margin-bottom: 15px;
+    color: #4a4a4a;
 }
 
 .contact-info a {
-    color: #007bff;
+    color: #D4A017;
     text-decoration: none;
     font-weight: 500;
 }
@@ -188,9 +197,9 @@ header {
 
 /* Footer */
 footer {
-    background-color: #000;
+    background-color: #0A1828;
     color: #fff;
-    padding: 20px;
+    padding: 25px;
     text-align: center;
 }
 
@@ -199,11 +208,11 @@ footer p {
 }
 
 footer a {
-    color: #ffd700;
+    color: #D4A017;
     text-decoration: none;
     font-weight: 500;
 }
 
 footer a:hover {
     text-decoration: underline;
-}
+    }
