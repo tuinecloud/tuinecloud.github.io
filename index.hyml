@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tuine Cloud</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fff;
+      color: #111;
+    }
+
+    header {
+      background-color: #111;
+      color: #fff;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+    }
+
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1512704097830-3d0a5a69f663?auto=format&fit=crop&w=1600&q=80');
+      background-size: cover;
+      background-position: center;
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+    }
+
+    .products {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+      padding: 0 1rem 3rem;
+    }
+
+    .product {
+      width: 300px;
+      text-align: center;
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .product p {
+      margin-top: 0.5rem;
+      font-weight: 600;
+    }
+
+    footer {
+      background-color: #111;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Tuine Cloud</h1>
+  </header>
+
+  <section class="hero">
+    <h2>Elevate Your Style</h2>
+  </section>
+
+  <section>
+    <h2 class="section-title">Featured Products</h2>
+    <div class="products">
+
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1695658086350-1297d35e0d3f?auto=format&fit=crop&w=800&q=80" alt="Shirts" />
+        <p>Classic Cotton Shirts</p>
+      </div>
+
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1556906781-9a412961c28e?auto=format&fit=crop&w=800&q=80" alt="Urban Clothes" />
+        <p>Urban Layer Collection</p>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Tuine Cloud. All rights reserved.
+  </footer>
+
+</body>
+</html>
